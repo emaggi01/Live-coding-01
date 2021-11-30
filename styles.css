@@ -1,0 +1,42 @@
+h1{ text-align: left;
+}
+.flex-container {
+display: flex;
+}
+:root{
+	background-color: yellow;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  z-index:0;
+}
+
+li {
+  float: left;
+}
+
+li a, li a.dropbtn {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a.currentpg{
+  background-color: purple;
+}
+
+li a:hover, li.dropdown:hover, li.dropdown:hover a, li a.dropbtn:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+li.dropdown{
+  display: inline-block;
+}
